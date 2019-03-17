@@ -40,11 +40,24 @@
 		 			</div>
 		 			<div class="collapse navbar-collapse " id="demo-menu">
 		 				<ul class="nav navbar-nav">
-		 					 <li><a class="smooth-scroll" href="#home">Home</a></li>
-                             <li><a class="smooth-scroll" href="#feature">Features</a></li>
-                             <li><a class="smooth-scroll" href="#about">About</a></li>
-                             <li><a class="smooth-scroll" href="#team">Our Team</a></li>
-                             <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+		 					<li><a class="smooth-scroll" href="#home">Home</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Diseases</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Malaria</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Breast Cancer</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Diabetic Retinopathy</a>
+									<div class="dropdown-divider"></div>
+								</div>
+							</li>
+              <li><a class="smooth-scroll" href="#feature">Features</a></li>
+              <li><a class="smooth-scroll" href="#about">About</a></li>
+              <!-- <li><a class="smooth-scroll" href="#team">Our Team</a></li> -->
+              <li><a class="smooth-scroll" href="#team">Contact Us</a></li>
+              <li><a class="smooth-scroll" href="login.html">Login</a></li>
+              <li><a class="smooth-scroll" href="signup.html">SignUp</a></li>
 		 				</ul>
 		 			</div>
 		 		</div>
@@ -132,32 +145,34 @@
 			<div class="col-md-7">
 				<canvas id="bar-chart" width="1000" height="600"></canvas>
 			</div>
+			<br>
 			<div class="col-md-5 text-center">
-				<h3 id="subscribe-h3">Upload image for disease diagnosis</h3>
+				<h3 id="subscribe-h3">Test images for disease diagnosis</h3>
+				<br>
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-12">
 						<div class="form-group" id="subscribe-dropdown">
                             <div class="dropdown">
-                              <button class="btn  dropdown-toggle" type="button" data-toggle="dropdown">Select Disease
+                              <button class="btn choose-btn dropdown-toggle" type="button" data-toggle="dropdown">Select Disease
                               <span class="caret"></span></button>
-                              <ul class="dropdown-menu">
+                              <ul class="dropdown-menu choose-menu">
+																<li><a href="#">Malaria</a></li>
                                 <li><a href="#">Breast Cancer</a></li>
+																<li><a href="#">Diabetic Retinopathy</a></li>
                                 <li><a href="#">Lung Diseases</a></li>
-                                <li><a href="#">Malaria</a></li>
-                                <li><a href="#">Diabetic Retinopathy</a></li>
                               </ul>
                             </div>
                  		</div>
 					</div>
-					<div class="col-md-6 form-group" id="subscribe-dropdown">
+					<!-- <div class="col-md-6 form-group" id="subscribe-dropdown">
 						<button class="btn btn-primary" type="button">Upload image</button>
 					</div>
 					<div class="col-md-12 text-center" style="padding: 20px;">
 						<button type="button" class="btn btn-secondary btn-lg">Analyse Report</button>
-					</div>
+					</div> -->
 				</div>
 			</div>
-			
+
 		</div>
 	</section>
 
@@ -196,7 +211,7 @@
 							<div class="team-member" align="center">
 								<img src="images/topper3.png" class="img-fluid img-team img-circle" alt="team-member">
 								<div class="team-member-info text-center">
-									<h4 class="team-member-name">chiranjev Koul</h4>
+									<h4 class="team-member-name">Chiranjev Koul</h4>
 									<!-- <h4 class="team-member-designation">English</h4>
 									<li class="text-center" style="padding-left:0;list-style: none;">9756546578</li> -->
 								</div>
@@ -269,8 +284,8 @@
                                 <li><a class="smooth-scroll" href="#home">Home</a>/</li>
                                 <li><a class="smooth-scroll" href="#feature">Features</a>/</li>
                                 <li><a class="smooth-scroll" href="#about">About</a>/</li>
-                                <li><a class="smooth-scroll" href="#team">Our Team</a>/</li>
-                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                                <!-- <li><a class="smooth-scroll" href="#team">Our Team</a>/</li> -->
+                                <li><a class="smooth-scroll" href="#team">Contact</a></li>
                             </ul>
                         </div>
                     </div>
